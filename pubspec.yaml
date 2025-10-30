@@ -1,0 +1,27 @@
+name: proyek_sesi4
+description: A simple Flutter layout demo with carousel and horizontal lists (dummy data).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/poster1.png
+    - assets/images/poster2.png
+    - assets/images/poster3.png
+    - assets/images/poster4.png
+    - assets/images/poster5.png
+    - assets/images/poster6.png
